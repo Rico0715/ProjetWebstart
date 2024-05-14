@@ -25,7 +25,6 @@ const App = () => {
       };
 
   useEffect(() => {
-    // Au chargement du composant, appelez la fonction fetchProductData pour récupérer les données du produit
     fetchProductData();
   }, []);
 
@@ -46,12 +45,12 @@ const App = () => {
 };
 const styles = StyleSheet.create({
   text: {
-    color: 'yellow', // Couleur jaune
-    marginBottom: 10 // Espacement entre les textes
+    color: 'yellow', 
+    marginBottom: 10 
   },
   loadingText: {
-    color: 'yellow', // Couleur jaune pour le texte de chargement
-    fontSize: 18 // Taille de police pour le texte de chargement
+    color: 'yellow',
+    fontSize: 18 
   }
 });
 export default App;
